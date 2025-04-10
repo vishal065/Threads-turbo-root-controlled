@@ -5,7 +5,7 @@ const queries = {
 };
 const mutations = {
   createUser: (_: any): string => {
-    console.log("mutation", _);
+    console.log("createUser", _);
 
     return "returned value";
   },
